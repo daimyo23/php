@@ -1,10 +1,17 @@
 <html>
     <head>
-        <title>"A� valdau HTML!"</title>
+        <title>Komentarai</title>
     </head>
     <body>
-        <h1> "Daniil - HTML assas" </h1>
-        <p> Moku kurti statini turini </p>
-        <?php print date ('Y-m-d His');?>
+        <h1>Dainu tekstai</h1>
+        <h2>Paragrafo Daina</h2>
+        
+     <?php
+/*
+<p>Mindau svetimo kodo gatves</p> 
+ * <p>As toks vienisas jaunas paragrafas... </p>
+*/
+?>
+        
     </body>
 </html>
