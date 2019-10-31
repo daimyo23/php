@@ -1,6 +1,5 @@
 <?php
 $sudas1 = (rand(1, 100));
-
 $sudas2 = (rand(101, 200));
 $sudas3 = (rand(201, 300));
 
