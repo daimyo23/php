@@ -2,7 +2,7 @@
 $distance = rand(15, 30); // k,
 $comsumption = 7.5; // valgo/km
 $price_1 = 1.3; // eur/l
-$sunaduota= $distance/$comsumption;
+$sunaduota= round($distance/$comsumption);
 $kaina= $sunaduota*$price_1;
 
 $h1= "Keliones skaiciukle";
