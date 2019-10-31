@@ -1,12 +1,7 @@
 <?php
-$sudas1 = (rand(1, 100));
-$sudas2 = (rand(101, 200));
-$sudas3 = (rand(201, 300));
-
-$h1 = "Skolos skaciuokle";
-$h2 = "Su vienu kabanciku grazinsi";
-$h3 = "Jei paemei";
-$h4 = "Su dviem  kabancikais grazinsi";
+$bin_vol = 40;
+$bin_heap_vol = rand(4, 5);
+$days = $bin_vol / $bin_heap_vol;
 ?>
 <html>
     <head>
@@ -14,11 +9,11 @@ $h4 = "Su dviem  kabancikais grazinsi";
         <style></style>
     </head>
     <body>
-        <div class="body1">
-            <h1><?php print $h1; ?></h1>
-            <h3><?php print $h3; ?> <?php print $sudas1; ?> jewsu</h3>
-            <h2><?php print $h2; ?> <?php print $sudas2; ?> </h2>
-            <h4><?php print $h4; ?> <?php print $sudas3 ?></h4>
+        <h1>Siuksliu prognoze</h1>
+        <p>Turima siuksline  - <?php print $bin_vol ?> litru </p>
+        <p>Zmona nieko nesako, kol kaupas nevrisija <?php print $bin_heap_vol ?> litru </p>
+        <h3>Isvad: nieko nedarysiu <?php print $days ?> dienu </h3>
+            
 
         </div>
     </body>
