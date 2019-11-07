@@ -4,22 +4,18 @@ ini_set('xdebug.var_display_max_depth', '10');
 ini_set('xdebug.var_display_max_children', '256');
 ini_set('xdebug.var_display_max_data', '1024');
 
-$maistas = [ 'pirmas' => [
-"kieno" => 'Petro Pizdzio',
-"koks" => 'prapistas',
-"kas" => 'telefonas',
+$maistas = [ 'lentyna1' => [
+"kiausiniai" => '3',
+"grietine" => '1',
+"jogurtas" => '2',
+"Zuvis" => '0',
 ],
-[  'antras' => [
-   "antras_persas" => 'Tomo Ablomo',
-  "antra_bukle" => 'naudojamas',
-  "antras_daiktas" => 'buljonas',
-],
-[ 'trecias' => [
-    "kieno" => 'Anos SHitkovos',
- "koks" => 'pasibaiges',
- "kas" => 'rulonas',
-   ] 
-  ]  
+[  'lentyna2' => [
+   "pienas" => '1',
+  "kefyras" => '0',
+  "degtine" => '2',
+  "kecupas" => '2',
+], 
  ]
 ];
 
