@@ -1,30 +1,40 @@
 <?php
-$distance = rand(15, 30); // k,
-$comsumption = 7.5; // valgo/km
-$price_1 = 1.3; // eur/l
-$sunaduota= round($distance/$comsumption);
-$kaina= $sunaduota*$price_1;
 
-$h1= "Keliones skaiciukle";
-$li1= "Nuvaziuota distancija: $distance km";
-$li2="Sunadota: $sunaduota litru";
-$li3="Kaina: $kaina jewsu "
+ini_set('xdebug.var_display_max_depth', '10');
+ini_set('xdebug.var_display_max_children', '256');
+ini_set('xdebug.var_display_max_data', '1024');
+
+$maistas = [ 'pirmas' => [
+"kieno" => 'Petro Pizdzio',
+"koks" => 'prapistas',
+"kas" => 'telefonas',
+],
+[  'antras' => [
+   "antras_persas" => 'Tomo Ablomo',
+  "antra_bukle" => 'naudojamas',
+  "antras_daiktas" => 'buljonas',
+],
+[ 'trecias' => [
+    "kieno" => 'Anos SHitkovos',
+ "koks" => 'pasibaiges',
+ "kas" => 'rulonas',
+   ] 
+  ]  
+ ]
+];
+
+var_dump ($maistas);
+
+     
+
+
 ?>
 <html>
     <head>
         <title></title>
-        <style></style>
     </head>
-    <body>
-        <h1><?php print $h1 ?></h1>
-        <ul>
-            <li><?php print $li1?></li>
-            <li><?php print $li2?></li>
-            <li><?php print $li3?></li>
-            
-        </ul>
-    
+    <body> 
+  
 
-        </div>
     </body>
 </html>
